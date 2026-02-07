@@ -14,4 +14,4 @@ Obviously, my first reason to code this project is **to bypass the Discord's fil
 - **Implement CMake**
 
 ### License 
-This project is open source and available under the (MIT License) [https://github.com/remyone/DiscSplit/blob/main/LICENSE]
+This project is open source and available under the [MIT License](https://github.com/remyone/DiscSplit/blob/main/LICENSE)
