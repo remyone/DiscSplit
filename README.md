@@ -1,9 +1,8 @@
 # 📁 DiscSplit - Split & Merge Files for Discord
-
-⚡ **Splits large files into Discord-friendly chunks**
-🔗 **Merges chunks back into original files**
-🪓 **Bypasses Discord's 10MB file limit**
-💻 **Written in C**
+- ⚡ **Splits large files into Discord-friendly chunks**
+- 🔗 **Merges chunks back into original files**
+- 🪓 **Bypasses Discord's 10MB file limit**
+- 💻 **Written in C**
 
 `Why in C?` - I wanted to practice file managament and test my hard skills in C!
 
