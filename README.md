@@ -16,7 +16,7 @@ gcc -c ../SplitFileContent/splitFileContent.c -o SFC.o -I ../FileAnalysis
 gcc -c ../MergeFiles/mergeFiles.c -o MF.o -I ../SplitFileContent -I ../FileAnalysis
 ar -rcs libfilelib FA.o MF.o SFC.o
 cd ..
-gcc main.c -L FILELIB/ -lfilelib -I FileAnalysis -I MergeFiles -I SplitFileContent -o DiscSplit
+gcc main.c -L build/ -lfilelib -I FileAnalysis -I MergeFiles -I SplitFileContent -o DiscSplit
 ```
 
 ### 🔥Motivation
