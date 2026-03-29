@@ -25,6 +25,5 @@ add_library(LIB_DiscSplit STATIC ${LibrarySources} ${LibraryHeaders})
 target_include_directories(LIB_DiscSplit PRIVATE include)
 
 add_executable(${PROJECT_NAME} src/main.c)
-#target_compile_options(${PROJECT_NAME} PRIVATE -g)
 target_link_libraries(${PROJECT_NAME} PRIVATE LIB_DiscSplit)
 target_include_directories(${PROJECT_NAME} PRIVATE include)
